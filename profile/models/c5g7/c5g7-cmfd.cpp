@@ -7,7 +7,8 @@ int main() {
 
   /* Define simulation parameters */
   #ifdef OPENMP
-  int num_threads = omp_get_num_procs();
+  log_printf(NORMAL, "OpenMP is defined");
+  int num_threads = omp_get_max_threads();
   #else
   int num_threads = 1;
   #endif

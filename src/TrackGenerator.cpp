@@ -280,6 +280,8 @@ void TrackGenerator::setNumThreads(int num_threads) {
 
   /* Set the number of threads for OpenMP */
   omp_set_num_threads(_num_threads);
+  log_printf(NORMAL, "Num threads set to %d. Max threads %d", omp_get_num_threads(),
+          omp_get_max_threads());
 }
 
 

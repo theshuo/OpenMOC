@@ -35,14 +35,16 @@ Surface.cpp \
 Timer.cpp \
 Track.cpp \
 TrackGenerator.cpp \
-Universe.cpp
+Universe.cpp \
 
 cases = \
 gradients/one-directional/one-directional-gradient.cpp \
 gradients/two-directional/two-directional-gradient.cpp \
 homogeneous/homogeneous-one-group.cpp \
 c5g7/c5g7.cpp \
-c5g7/c5g7-cmfd.cpp
+c5g7/c5g7-cmfd.cpp \
+scaling/strong-scaling.cpp \
+scaling/weak-scaling.cpp
 
 #===============================================================================
 # Sets Flags
